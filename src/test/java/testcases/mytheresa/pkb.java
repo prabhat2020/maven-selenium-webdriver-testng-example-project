@@ -35,8 +35,8 @@ driver.get("http://www.google.com");
 //we expect the title “Google “ should be present 
 //String Expectedtitle = "Google";
 //it will fetch the actual title 
-//String Actualtitle = driver.getTitle();
-//System.out.println("Before Assetion " + Expectedtitle + Actualtitle);
+String Actualtitle = driver.getTitle();
+System.out.println("Before Assetion "  + Actualtitle);
 //it will compare actual title and expected title
 //Assert.assertEquals(Actualtitle, Expectedtitle);
 //print out the result
