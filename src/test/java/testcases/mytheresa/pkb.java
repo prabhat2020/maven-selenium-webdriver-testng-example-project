@@ -32,9 +32,9 @@ public void testgooglrsearch() throws MalformedURLException{
 //WebDriver driver = new RemoteWebDriver(new URL("http://40.113.221.175:4444/wd/hub"),options);
 WebDriver driver = new RemoteWebDriver(new URL("http://52.165.35.113:4444/wd/hub"),new FirefoxOptions());
 driver.get("http://www.google.com");
-driver.findElement(By.name("q")).sendKeys("cheese" + Keys.ENTER);
-            WebElement firstResult = wait.until(presenceOfElementLocated(By.cssSelector("h3>div")));
-            System.out.println(firstResult.getAttribute("textContent"));
+//driver.findElement(By.name("q")).sendKeys("cheese" + Keys.ENTER);
+  //          WebElement firstResult = wait.until(presenceOfElementLocated(By.cssSelector("h3>div")));
+    //        System.out.println(firstResult.getAttribute("textContent"));
 //we expect the title “Google “ should be present 
 //String Expectedtitle = "Google";
 //it will fetch the actual title 
